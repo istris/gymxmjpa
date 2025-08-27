@@ -1,17 +1,12 @@
 ### 特别感谢
 
-本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助
+本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助：EdgeOne 提供长期有效的免费套餐，包含不限量的流量和请求，覆盖中国大陆节点，且无任何超额收费，感兴趣的朋友可以点击下面的链接领取
 
-[最佳亚洲 CDN、Edge 和安全解决方案 - 腾讯 EdgeOne](https://edgeone.ai/?from=github)
+[亚洲最佳 CDN、边缘和安全解决方案 - Tencent EdgeOne](https://edgeone.ai/?from=github)
 ![](https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.webp)
 
- 项目演示地址：[http://gym.liujian.cool](http://gym.liujian.cool)
->
-> 项目gitHub源码地址：[https://github.com/liujianview/gymxmjpa](https://github.com/liujianview/gymxmjpa)
->
-> 项目gitee源码地址：[https://gitee.com/liuchuanfengview/gymxmjpa](https://gitee.com/liuchuanfengview/gymxmjpa)
->
-> 欢迎给个star鼓励一下~
+<img width="2163" height="308" alt="image" src="https://github.com/user-attachments/assets/a3466055-6307-4e55-94eb-2ef09d757c8f" />
+
 
 ## 一.前言
 
