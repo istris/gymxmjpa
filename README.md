@@ -1,87 +1,98 @@
-### 特别感谢
+Java期末大作业设计文档
+小组成员：杨志炜、赵子航、邱柏豪
+一.项目概述
+此项目是基于springboot框架的web项目——健身房管理系统。
 
-本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助：EdgeOne 提供长期有效的免费套餐，包含不限量的流量和请求，覆盖中国大陆节点，且无任何超额收费，感兴趣的朋友可以点击下面的链接领取
+二.项目总体设计
 
-[亚洲最佳 CDN、边缘和安全解决方案 - Tencent EdgeOne](https://edgeone.ai/?from=github)
-![](https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.webp)
-
-<img width="2163" height="308" alt="image" src="https://github.com/user-attachments/assets/a3466055-6307-4e55-94eb-2ef09d757c8f" />
+1.设计结构
+系统层次结构图如下：
 
 
-## 一.前言
+主要功能如下：
 
-这次分享的项目是我的毕业设计：基于SpringBoot的健身房管理系统。这是我在GitHub上开源的第二个项目（第一个是我的个人博客网站：[http://liujian.cool](http://liujian.cool) ） 本系统用了 Sping Data JPA 这一不常用的数据库框架，是一个值得学习研究的点。
+管理员登录模块
 
-本项目演示地址为 [http://gym.liujian.cool](http://gym.liujian.cool)  用户名：admin 密码: admin123  方可进入。项目源码在文章开头，下载到本地导入IDEA，修改配置文件中数据库连接信息后，导入项目附带数据库的SQL文件生成所有表结构，就可以本地启动了，用户名密码同上。
+会员管理模块
 
-## 二.系统总体设计
+教练管理模块
 
-### 1.设计结构
+课程管理模块
 
-#### 系统层次结构图如下：
+器材管理模块
 
-![image-20210125203309103](https://img-blog.csdnimg.cn/img_convert/990c3343746b222872d041334d8d1cb9.png)
+物品遗失管理模块
 
-#### 主要功能如下：
+商品管理模块
 
-- 管理员登录模块
-- 会员管理模块
-- 教练管理模块
-- 课程管理模块
-- 器材管理模块
-- 物品遗失管理模块
-- 商品管理模块
-- 信息统计模块
+信息统计模块
 
-### 2.涉及技术框架：
+2.涉及技术框架：
 
-1. web框架：SpringBoot
-2. 数据库框架：Sping Data JPA
-3. 数据库：MySql
-4. 项目构建工具：Maven
-5. 前端模板：JSP
-6. 安全框架：Shiro
-7. 前端框架：BootStrap,Layui
-8. 数据图表：ECharts
+web框架：SpringBoot
+数据库框架：Sping Data JPA
+数据库：MySql
+项目构建工具：Maven
+前端模板：JSP
+安全框架：Shiro
+前端框架：BootStrap,Layui
+数据图表：ECharts
 
-### 3.本项目所用环境：
+3.本项目所用环境：
 
-1. 开发工具：IDEA
-2. 编程语言：JDK1.8,HTML,CSS,JS，jQuery
-3. 数据库：mysql5.6
-4. 部署服务器：腾讯云Centos7
+开发工具：IDEA
+编程语言：JDK1.8,HTML,CSS,JS，jQuery
+数据库：mysql
 
-## 三.系统主要页面展示
 
-### 登录界面
+三.系统主要页面展示
 
-![image-20210125204622368](https://img-blog.csdnimg.cn/img_convert/da5d76a1ede727f01502886b56ddfb38.png)
+登录界面
 
-### 数据统计界面
 
-![image-20210125204723157](https://img-blog.csdnimg.cn/img_convert/372a2ba7ebce12d48cce9088eeb054a4.png)
+数据统计界面
 
-### 会员列表界面
 
-![image-20210125204804256](https://img-blog.csdnimg.cn/img_convert/9d7f61a0d92d5687fc7c27f2a9370cc1.png)
 
-### 会员私教课程界面
+会员列表界面
 
-![image-20210125204905369](https://img-blog.csdnimg.cn/img_convert/befa00e056959117974ec2eef8681c21.png)
 
-### 物品遗失归还界面
+会员私教课程界面
 
-![image-20210125205005148](https://img-blog.csdnimg.cn/img_convert/f96c6344c6bfd7c1d2e76e39d1d33a6b.png)
 
-### 商品列表界面
+普通课程列表界面
 
-![image-20210125205100971](https://img-blog.csdnimg.cn/img_convert/bf7a74da109829fe505356369a1550fe.png)
 
-## 四.总结
+器材信息管理界面
 
-本次分享的 健身房管理系统 功能还是很全的，页面也比较精美，适合刚接触SpringBoot和Spring Data JPA 框架的初学者做练手项目，项目中的图表功能：ECharts 也可以好好学习学习~
 
-&emsp;更多精彩功能请关注我的个人博客网站：[http://liujian.cool](http://liujian.cool)
+物品遗失归还界面
 
-&emsp;&emsp;欢迎关注我的个人公众号：程序猿刘川枫
-&emsp;&emsp;![](https://img-blog.csdnimg.cn/img_convert/1944436507a30c7c8541bcc5e4b75969.png)
+
+商品列表界面
+
+
+
+四．项目实施
+
+1.环境搭建
+JDK1.8
+Maven仓库配置
+IDEA
+MySQL数据库与sql文件（gym.sql）
+
+2.项目结构
+
+
+3.项目应用运行
+①本地数据库（MySQL)创建数据库（gym_db），运行gym.sql的sql代码，完成数据表结构及数据的创建与插入。
+②在resource/application.properties中修改本地的信息（端口号；MySQL数据库的url、username和password）。
+③运行GymMSApplication.java(springboot），运行成功后，在浏览器访问localhost:8090（端口号在②中配置）。
+④访问网址后会进入登录界面（login.jsp）。管理员登录（账号：admin）（密码：admin123）。如果想添加管理员，可以在gym.sql中insert账号密码到adminuser表中。
+⑤进入系统后可以操作各种功能，项目完成。
+
+五．总结
+
+此健身房管理系统基于springboot框架的web项目，我们完成了基本功能以及拓展功能的实现。在项目完成的过程中遇到i一些问题，我们通过小组讨论、ai协助、csdn资料浏览等解决了问题，最终成功部署运行此应用。
+此项目让我们对springboot框架有了更深刻的理解，熟悉了其用法；并且学习了一些前端技术框架（BootStrap、Layui）、还有一个安全框架（Shiro）。
+总体来说，这个项目是成功的，让我们更深刻领悟JavaWeb开发，在这方面有了一些进步。
